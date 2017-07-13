@@ -21,7 +21,7 @@
   margin: 0;
   padding: 0 10px;
   text-shadow: 0 -1px 0 #000;
-  width: 335px;
+  width: 70%;
 }
 
 
@@ -71,7 +71,7 @@
   padding: 0;
   position: relative;
   text-shadow: 0 -1px 0 #000;
-  width: 100px;
+  width:30%;
 } 
 
 .webdesigntuts-workshop button:hover,
