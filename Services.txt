@@ -1,0 +1,7 @@
+Home
+Login
+REgistration
+Post ad
+Edit ad
+Show ads by logged in user
+Search advertisements

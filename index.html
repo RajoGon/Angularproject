@@ -1,0 +1,175 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>I want that!</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">       
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+        <link rel="icon" href="">
+        <!-- Bootstrap -->
+        <!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<!-- jQuery library -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<!-- Latest compiled JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <!-- Style sheets -->
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+        <link rel="stylesheet" type="text/css" href="css/bnav.css">
+        <link rel="stylesheet" type="text/css" href="css/searchbar.css">
+        <link rel="stylesheet" type="text/css" href="css/login.css">
+    </head>
+    <body>
+		<!-- navbar -->
+		<nav class="navbar navbar-inverse">
+  			<div class="container-fluid">
+    			<div class="navbar-header">
+     				 <a class="navbar-brand" href="#">
+     				 	<img src="images/logo.png" class="img-rounded" alt="Cinque Terre" width="100" height="100">
+     				 </a>
+    			</div>
+		    	<ul class="nav navbar-nav">
+		      		<li class="active"><a href="#">Home</a></li>
+		      		<li><a href="#">Page 1</a></li>
+		     		 
+		    	</ul>
+		    	<ul class="nav navbar-nav navbar-right">	
+		    		<li><a href="#"><span class="glyphicon glyphicon-open"></span> <button type="button" class="btn btn-primary">Post an Ad</button></a></li>
+		    		<li><a href="#"> <span class="glyphicon glyphicon-briefcase"></span> My Account</a></li>
+		      		<li ><a href="#" data-toggle="modal" data-target="#sign"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+		      		<li ><a href="#" data-toggle="modal" data-target="#log"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+		    	</ul>
+  			</div>
+		</nav>
+
+
+		<div id="cat">
+				<div class="row">
+
+				<div class=" col-md-4 dropdown" id="catdropdown">
+  				<button id="catbutton" class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Categories
+  				<span class="caret"></span></button>
+  				<ul class="dropdown-menu" id="categorydropdown">
+
+	  				<div class="row>">
+		  				<div class="col-md-3">
+		    				<li><a href="#"><span><img src="images/vehicle.png" height="25px"></span> Vehicles</a></li>
+		    			</div>
+		    			<div class="col-md-3">
+		    				<li><a href="#"><img src="images/realestate.png" height="25px"> Real Estate</a></li>
+		    			</div>	
+		    			<div class="col-md-3">
+	    					<li><a href="#"><img src="images/Electronics.png" height="25px"> Electronics</a></li>
+	    				</div>
+	    				<div class="col-md-3">
+	    					<li><a href="#"><img src="images/fashion.png" height="25px"> Fashion</a></li>
+	    				</div>
+	    			</div>
+  				</ul>
+				</div>
+				<div class="col-md-4">
+				</div>
+				<div class="col-md-4 webdesigntuts-workshop">
+					<form action="" method="">		    
+						<input type="search" placeholder="What are you looking for?">		    	
+						<button>Search</button>
+					</form>
+				</div>
+				</div>
+
+		</div>
+		<!-- Login -->
+		<div id="log" class="modal fade" role="dialog">
+		  <div class="modal-dialog">
+		    <!-- Modal content-->
+		    <div class="form-group" id="login">
+			    <form action="">
+					<h1>Login Form</h1>
+					<div id="uname">
+						<input class="form-control" type="text" placeholder="Username" required="" id="username" />
+					</div>
+					<div>
+						<input class="form-control" type="password" placeholder="Password" required="" id="password" />
+					</div>
+					<div>
+						<input id="loginbutton" type="submit" value="Log in"><br>
+						<a href="#">Lost your password?</a>
+						<a href="#sign" data-target="#sign" data-toggle="modal" data-dismiss="modal">Register</a>
+					</div>
+				</form>
+			</div>
+
+		  </div>
+		</div>
+		<!-- Signup -->
+		<div id="sign" class="modal fade" role="dialog"> 
+		  <div class="modal-dialog">
+
+		    <!-- Modal content-->
+		    <div class="form-group" id="login">
+			    <form action="">
+					<h1>Signup</h1>
+					<div id="uname2">
+						<input class="form-control" type="text" placeholder="Username" required="" id="username" />
+					</div>
+					<div>
+						<input class="form-control" type="password" placeholder="Password" required="" id="password" />
+					</div>
+					<div>
+						<input id="loginbutton" type="submit" value="Log in"><br>
+						<a href="#" data-target="#log" data-toggle="modal" data-dismiss="modal">Already have an account? Login</a>
+					</div>
+				</form>
+			</div>
+
+		  </div>
+		</div>
+		<!-- Footer -->
+		<div class="footer">
+		                 <div  class="row wow zoomIn">
+                <div class="col-md-4" id="contact">
+                    Contact us :<br><hr>
+                    <span class="glyphicon glyphicon-envelope"> Customersupport@iwantthat.com</span><br>
+                    <span class="glyphicon glyphicon-phone-alt"> 9766110856/98872981</span><br>
+                    <a id="web" href="#"><span class="glyphicon glyphicon-bookmark"> https://www.iwantthat.com</span></a>
+
+
+                </div>
+                <div class="col-md-4" id="contact2">
+           
+                    Connect to us Socially:<br><hr>
+                    <div class="row">
+                    <div class="col-md-2">
+                      <a id="" href="#"><img class="img-circle" style="height:50px; width:50px; " src="images/fb.png" alt="Nature" ></a>
+                    </div>
+                    <div class="col-md-2">
+                     <a id="" href="#"><img class="img-circle" style="height:50px; width:50px; " src="images/twit.jpg" alt="Nature" ></a>
+                     </div>
+                     <div class="col-md-2">
+                    <a id="" href="#"> <img class="img-circle" style="height:50px; width:50px; " src="images/insta.jfif" alt="Nature" ></a>
+                    </div>
+                    <div class="col-md-2">
+                     <a id="" href="#"><img class="img-circle" style="height:50px; width:50px; " src="images/ln.png" alt="Nature" ></a>
+                     </div>
+                     <div class="col-md-2">
+                     <a id="" href="#"><img class="img-circle" style="height:50px; width:50px; " src="images/git.png" alt="Nature" ></a>
+                     </div>
+                     <div class="col-md-2">
+                     <a id="" href="#"><img class="img-circle" style="height:50px; width:50px; " src="images/gplus.png" alt="Nature" ></a>
+                     </div>
+                </div>
+
+                </div>
+                  <div class="col-md-4">
+                     You will find me here:<br><hr>
+                     <!-- <span class="glyphicon glyphicon-object-align-vertical"> Sr. No. 33/1, Opposite Chhatrapati Shivaji Sports Complex, near Octroi Naka, Balewadi, Pune, Maharashtra 411045</span><br><br> -->
+                     <span class="glyphicon glyphicon-home"> A804, Off Wakad Hinjewadi Road, Opp Sukhwani Petrol Pump, Wakad, Pune, 411057</span>
+                </div>
+          </div>
+		</div>
+
+
+    </body>
+</html>

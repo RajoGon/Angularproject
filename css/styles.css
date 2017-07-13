@@ -1,0 +1,91 @@
+body{
+  background-color: #e1fcd1;
+}
+#cat{
+
+
+  height: 50px; /* FF3.6-15 */
+  background: -webkit-linear-gradient(rgba(30,87,153,0) 0%, rgba(30,87,153,0.8) 1%, rgba(30,87,153,1) 5%, rgba(30,87,153,1) 11%, rgba(42,88,224,1) 51%, rgba(30,87,153,1) 87%, rgba(30,87,153,1) 95%, rgba(30,87,153,0.8) 99%, rgba(30,87,153,0) 100%);
+  background: -o-linear-gradient(rgba(30,87,153,0) 0%, rgba(30,87,153,0.8) 1%, rgba(30,87,153,1) 5%, rgba(30,87,153,1) 11%, rgba(42,88,224,1) 51%, rgba(30,87,153,1) 87%, rgba(30,87,153,1) 95%, rgba(30,87,153,0.8) 99%, rgba(30,87,153,0) 100%);
+  background: linear-gradient(rgba(30,87,153,0) 0%, rgba(30,87,153,0.8) 1%, rgba(30,87,153,1) 5%, rgba(30,87,153,1) 11%, rgba(42,88,224,1) 51%, rgba(30,87,153,1) 87%, rgba(30,87,153,1) 95%, rgba(30,87,153,0.8) 99%, rgba(30,87,153,0) 100%); /* Chrome10-25,Safari5.1-6 */ /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#001e5799', endColorstr='#001e5799',GradientType=0 ); /* IE6-9 */
+}
+#catdropdown{
+     line-height: 50px;
+    height: 50px;
+
+}
+#catbutton{
+
+    height: 48px;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+}
+#catbutton:hover {
+background: -moz-linear-gradient(top, rgba(19,33,96,0) 0%, rgba(19,33,96,0.8) 23%, rgba(19,33,96,1) 28%, rgba(19,33,96,1) 50%, rgba(103,104,110,1) 95%, rgba(110,110,112,0.8) 99%, rgba(112,112,112,0) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(19,33,96,0) 0%,rgba(19,33,96,0.8) 23%,rgba(19,33,96,1) 28%,rgba(19,33,96,1) 50%,rgba(103,104,110,1) 95%,rgba(110,110,112,0.8) 99%,rgba(112,112,112,0) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(19,33,96,0) 0%,rgba(19,33,96,0.8) 23%,rgba(19,33,96,1) 28%,rgba(19,33,96,1) 50%,rgba(103,104,110,1) 95%,rgba(110,110,112,0.8) 99%,rgba(112,112,112,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00132160', endColorstr='#00707070',GradientType=0 ); /* IE6-9 */
+}
+
+
+
+#login{
+
+  width: 400px;
+  height:300px;
+  border-radius:10px;
+  box-shadow: 10px 10px 5px #4f5051;
+  background-color: #F4F1BB;
+}
+#login >form > h1{
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  height:50px;
+  text-align: center;
+  background-color: #A84BA0; 
+  color: white;
+}
+#login >form > div{
+  margin-left:50px;
+  width: 300px;
+  border-radius:10px;
+  height:50px;
+  text-align: center;
+  color: white;
+}
+#uname{
+  margin-top:20px;
+}
+#loginbutton{
+  margin-bottom: 20px;
+  width:150px;
+  height: 40px;
+  background-color: #A84BA0 ;
+  border:none;
+  box-shadow: 0px;
+}
+
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color:#2A58E0;;
+  color: #f8eff9;
+  text-align: left;
+}
+#web:link{
+color: #f8eff9;
+}
+#web:visited{
+color: #f8eff9;
+}
+#categorydropdown{
+  width: 300%;
+}
