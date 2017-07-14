@@ -71,7 +71,8 @@
 	    			</div>
   				</ul>
 				</div>
-				<div class="col-md-4">
+				<div class="col-md-4" id="asearch">
+					<button  type="button" class="btn btn-success">Advanced Search</button>
 				</div>
 				<div class="col-md-4 webdesigntuts-workshop">
 					<form action="" method="">	
@@ -592,17 +593,30 @@
 		  <div class="modal-dialog">
 
 		    <!-- Modal content-->
-		    <div class="form-group" id="login">
+		    <div class="form-group" id="sign2">
 			    <form action="">
 					<h1>Signup</h1>
+					
 					<div id="uname2">
 						<input class="form-control" type="text" placeholder="Username" required="" id="username" />
+					</div>
+					<div id="">
+						<input class="form-control" type="text" placeholder="First Name" required="" id="fname" />
+					</div>
+					<div id="">
+						<input class="form-control" type="text" placeholder="Last Name" required="" id="lname" />
 					</div>
 					<div>
 						<input class="form-control" type="password" placeholder="Password" required="" id="password" />
 					</div>
 					<div>
-						<input id="loginbutton" type="submit" value="Log in"><br>
+						<input class="form-control" type="email" placeholder="Email" required="" id="email" />
+					</div>
+					<div>
+						<input class="form-control" type="text" placeholder="Phone number" required="" id="phone" />
+					</div>
+					<div>
+						<input id="signinbutton" type="submit" value="Log in"><br>
 						<a href="#" data-target="#log" data-toggle="modal" data-dismiss="modal">Already have an account? Login</a>
 					</div>
 				</form>

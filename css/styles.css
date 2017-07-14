@@ -176,3 +176,38 @@ background-color: #f7f2ad;
 .carousel-inner>div>img{
   margin: 0 auto;
 }
+#sign2{
+
+  width: 400px;
+  height:300px;
+  border-radius:10px;
+  box-shadow: 10px 10px 5px #4f5051;
+  background-color: #F4F1BB;
+}
+#sign2 >form > h1{
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  height:50px;
+  text-align: center;
+  background-color: #A84BA0; 
+  color: white;
+}
+#sign2 >form > div{
+  margin-left:50px;
+  width: 300px;
+  border-radius:10px;
+  height:50px;
+  text-align: center;
+  color: white;
+}
+#sign2{
+  height: 500px;
+}
+#signinbutton{
+  margin-bottom: 20px;
+  width:150px;
+  height: 40px;
+  background-color: #A84BA0 ;
+  border:none;
+  box-shadow: 0px;
+}

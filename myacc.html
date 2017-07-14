@@ -25,8 +25,9 @@
         <script>
         $(document).ready(function () {
 		  location.hash && $(location.hash + '.collapse').collapse('show');
-		  window.scrollTo(0, $("#collapse3").offset().top);
+		  // window.scrollTo(0, $("#collapse3").offset().top);	 
 		});
+		
         </script>
     </head>
     <body>
@@ -39,13 +40,13 @@
      				 </a>
     			</div>
 		    	<ul class="nav navbar-nav">
-		      		<li class="active"><a href="index.html">Home</a></li>
+		      		<li><a href="index.html">Home</a></li>
 		      		<li><a href="#">Page 1</a></li>
 		     		 
 		    	</ul>
 		    	<ul class="nav navbar-nav navbar-right">	
 		    		<li><a href="myacc.html#collapse3"><span class="glyphicon glyphicon-open"></span> <button type="button" class="btn btn-primary">Post an Ad</button></a></li>
-		    		<li><a href="myacc.html"> <span class="glyphicon glyphicon-briefcase"></span> My Account</a></li>
+		    		<li class="active"><a href=""> <span class="glyphicon glyphicon-briefcase"></span> My Account</a></li>
 		      		<li ><a href="#" data-toggle="modal" data-target="#sign"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
 		      		<li ><a href="#" data-toggle="modal" data-target="#log"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
 		    	</ul>
@@ -136,7 +137,14 @@
 		        <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">
 		        My Advertisement History</a>
 		      </h4>
-		    </div><br>
+		    </div>
+		    <div id="tfheader">
+				<form id="tfnewsearch" method="get" action="http://www.google.com">
+				        <input type="text" id="tfq" class="tftextinput2" name="q" size="21" maxlength="120" placeholder="Search a specific ad">
+				        <input type="submit" value=">" class="tfbutton2">
+				</form>
+				<div class="tfclear"></div>
+			</div>
 		    <div id="collapse2" class="panel-collapse collapse addetails">
 			    <div class="row panel-body"> <!-- first ad -->
 				    <div class="col-md-5">
@@ -224,7 +232,7 @@
 				    <div class="col-md-5">
 				    		<div class="row panel-body">
 					    		<div class="col-md-6">
-									Advertisement No.1
+									<b>Advertisement No.1</b>
 								</div>
 								<div class="col-md-6">
 									Posted on 14/07/2017
@@ -232,7 +240,7 @@
 				    		</div>
 				    		<div class="row panel-body">
 								<div class="col-md-6">
-								Product Name
+								<b>Product Name</b>
 								</div>
 								<div class="col-md-6">
 								Laptop
@@ -240,7 +248,7 @@
 							</div>
 							<div class="row panel-body">
 								<div class="col-md-6">
-								Category
+								<b>Category</b>
 								</div>
 								<div class="col-md-6">
 								Electronics
@@ -248,19 +256,26 @@
 							</div>
 							<div class="row panel-body">
 								<div class="col-md-6">
-								Price
+								<b>Price</b>
 								</div>
 								<div class="col-md-6">
 								1,14,000
 								</div>
 							</div>
 							<div class="row panel-body">
-								<div class="col-md-6">
-								Description
-								</div>
-								<div class="col-md-6">
+								<div class="col-md-12">
+								<b>Description:</b>
+								
 								An alienware laptop which the latest nvidia 1000 series gpu and an overclocked cpu. 
 								An alienware laptop which the latest nvidia 1000 series gpu and an overclocked cpu
+								</div>
+							</div>
+							<div class="row panel-body">
+								<div class="col-md-6">
+								<a>Update Ad</a>
+								</div>
+								<div class="col-md-6">
+								<a>Delete Ad</a>
 								</div>
 							</div>
 				    </div>
@@ -312,7 +327,7 @@
 		        Post a new Advertisement</a>
 		      </h4>
 		    </div>
-		    <div id="collapse3" class="panel-collapse collapse">
+		    <div id="collapse3" class="panel-collapse collapse in">
 		      <div class="panel-body">
 					<form class="form-horizontal">
 					  <div class="form-group">
@@ -330,7 +345,7 @@
 					  </div>
 					  <div class="form-group">
 						  <label style="margin-right: 30px;" class="control-label col-sm-2" for="comment">Description:</label>
-						  <textarea class="form-group col-sm-9" rows="5" id="comment"></textarea>
+						  <textarea class="form-group col-sm-9" rows="5" id="comment" placeholder="Describe your image in details."></textarea>
 						</div>
 					   <div class="form-inline form-group">
 					  	<div class="row">
@@ -347,6 +362,12 @@
 								  </div>
 						  </div>
 						</div>
+					  <div class="form-group">
+					    <label class="control-label col-sm-2" for="pwd">Upload File:</label>
+					    <div class="col-sm-10"> 
+					      <input type="file" class="form-control" id="pwd" placeholder="">
+					    </div>
+					  </div>
 					  <div class="form-group"> 
 					    <div class="col-sm-offset-2 col-sm-10">
 					      <button type="submit" class="btn btn-default">Submit</button>
