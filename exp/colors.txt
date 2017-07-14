@@ -2,3 +2,7 @@ Navbar - 3B3561
 nav active - 8e44ad
 Category - 3B3561
 bg - B2F7EF
+
+
+
+nice flipkart footer- 2A58E0
