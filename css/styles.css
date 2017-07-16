@@ -108,9 +108,13 @@ color: #f8eff9;
 #categorydropdown{
   width: 600%;
 }
-.banner>img{
+.banner>div>div{
   width: 100%;
   height: 300px;
+}
+.intr{
+width: 100%;
+height: 300px !important
 }
 .products>a>div{
   border:0px solid black;
@@ -160,12 +164,16 @@ border-top: 1px solid black;
 .desc2>:nth-child(2)>div{
   text-align: justify;
 }
+.userdetails{
+  margin: 5px;
+}
 .userdetails>:nth-child(odd){
   background-color: #f7dbc3;
 }
 .userdetails>:nth-child(even){
   background-color: #d1cecc;
 }
+
 .addetails>:nth-child(odd){
   background-color: #f7dbc3;
 }
@@ -174,7 +182,7 @@ border-top: 1px solid black;
 }
 
 .addetails>div>:first-child{
-background-color: #f7f2ad;
+background-color: #F7F7F2;
 }
 .panel-body{
   margin:0;
@@ -246,3 +254,14 @@ background-color: #f7f2ad;
     color: white;
     font-size: 1.2em;
   }
+  .addetails>div{
+  margin: 30px;
+}
+#adhistory{
+  max-height :500px;
+  overflow: scroll;
+}
+#myaccjumbo{
+  padding-top:10px;
+  padding-bottom: 10px;
+}
