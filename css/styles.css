@@ -65,7 +65,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00125e58', e
   border-top-right-radius: 10px;
   height:50px;
   text-align: center;
-  background-color: #A84BA0; 
+  background-color: #404ea0; 
   color: white;
 }
 #login >form > div{
@@ -83,7 +83,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00125e58', e
   margin-bottom: 20px;
   width:150px;
   height: 40px;
-  background-color: #A84BA0 ;
+  background-color: #404ea0 ;
   border:none;
   box-shadow: 0px;
 }
@@ -98,6 +98,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00125e58', e
   text-align: left;
   margin-top: 20px;
   box-shadow: 0px 5px 11px 14px rgba(0,0,0,0.75);
+  margin-top: 10px;
 }
 #web:link{
 color: #f8eff9;
@@ -198,7 +199,7 @@ background-color: #f7f2ad;
   border-top-right-radius: 10px;
   height:50px;
   text-align: center;
-  background-color: #A84BA0; 
+  background-color: #404ea0; 
   color: white;
 }
 #sign2 >form > div{
@@ -216,22 +217,31 @@ background-color: #f7f2ad;
   margin-bottom: 20px;
   width:150px;
   height: 40px;
-  background-color: #A84BA0 ;
+  background-color: #404ea0 ;
   border:none;
   box-shadow: 0px;
 }
 .affix {
-   top:20px;
+   top:1px;
   }
   .asearch{
   background-color: ;
   }
+  #aser{
+
+  }
   #aser2{
     background-color: #a6afa1;
-    padding-right: 5px;
     max-width: 285px;
+    padding-bottom: 0px;
   }
   .showadvert{
     font-size: 1.2em;
     background-color: #A6AFA1;
+  }
+  .copyright{
+    background-color: black;
+    text-align: center;
+    color: white;
+    font-size: 1.2em;
   }

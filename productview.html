@@ -46,7 +46,7 @@
 		    	</ul>
 		    	<ul class="nav navbar-nav navbar-right">	
 		    		<li><a href="myacc.html#collapse3"><span class="glyphicon glyphicon-open"></span> <button type="button" class="btn btn-primary">Post an Ad</button></a></li>
-		    		<li><a href=""> <span class="glyphicon glyphicon-briefcase"></span> My Account</a></li>
+		    		<li><a href="myacc.html"> <span class="glyphicon glyphicon-briefcase"></span> My Account</a></li>
 		      		<li ><a href="#" data-toggle="modal" data-target="#sign"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
 		      		<li ><a href="#" data-toggle="modal" data-target="#log"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
 		    	</ul>
@@ -243,17 +243,30 @@
 		  <div class="modal-dialog">
 
 		    <!-- Modal content-->
-		    <div class="form-group" id="login">
+		    <div class="form-group" id="sign2">
 			    <form action="">
 					<h1>Signup</h1>
+					
 					<div id="uname2">
 						<input class="form-control" type="text" placeholder="Username" required="" id="username" />
+					</div>
+					<div id="">
+						<input class="form-control" type="text" placeholder="First Name" required="" id="fname" />
+					</div>
+					<div id="">
+						<input class="form-control" type="text" placeholder="Last Name" required="" id="lname" />
 					</div>
 					<div>
 						<input class="form-control" type="password" placeholder="Password" required="" id="password" />
 					</div>
 					<div>
-						<input id="loginbutton" type="submit" value="Log in"><br>
+						<input class="form-control" type="email" placeholder="Email" required="" id="email" />
+					</div>
+					<div>
+						<input class="form-control" type="text" placeholder="Phone number" required="" id="phone" />
+					</div>
+					<div>
+						<input id="signinbutton" type="submit" value="Log in"><br>
 						<a href="#" data-target="#log" data-toggle="modal" data-dismiss="modal">Already have an account? Login</a>
 					</div>
 				</form>
