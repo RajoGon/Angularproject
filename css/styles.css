@@ -98,7 +98,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00125e58', e
   text-align: left;
   margin-top: 20px;
   box-shadow: 0px 5px 11px 14px rgba(0,0,0,0.75);
-  margin-top: 10px;
 }
 #web:link{
 color: #f8eff9;
@@ -224,8 +223,10 @@ background-color: #f7f2ad;
 .affix {
    top:1px;
   }
-  .asearch{
-  background-color: ;
+  .payby>p{
+  color:white ;
+  line-height: 50px;
+    height: 50px;
   }
   #aser{
 
@@ -233,14 +234,14 @@ background-color: #f7f2ad;
   #aser2{
     background-color: #a6afa1;
     max-width: 285px;
-    padding-bottom: 0px;
+    padding-right: 5px;
   }
   .showadvert{
+
     font-size: 1.2em;
     background-color: #A6AFA1;
   }
   .copyright{
-    background-color: black;
     text-align: center;
     color: white;
     font-size: 1.2em;
