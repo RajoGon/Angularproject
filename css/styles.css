@@ -228,5 +228,10 @@ background-color: #f7f2ad;
   }
   #aser2{
     background-color: #a6afa1;
+    padding-right: 5px;
     max-width: 285px;
+  }
+  .showadvert{
+    font-size: 1.2em;
+    background-color: #A6AFA1;
   }
