@@ -23,7 +23,7 @@
         <link rel="stylesheet" type="text/css" href="css/login.css">
         <link href="https://fonts.googleapis.com/css?family=Kavivanar" rel="stylesheet">
     </head>
-    <body>
+    <body >
 		<!-- navbar -->
 		<nav class="navbar navbar-inverse">
   			<div class="container-fluid">
@@ -72,7 +72,7 @@
   				</ul>
 				</div>
 				<div class="col-md-4" id="asearch">
-					<button  type="button" class="btn btn-success">Advanced Search</button>
+					<!-- <button  type="button" class="btn btn-success">Advanced Search</button> -->
 				</div>
 				<div class="col-md-4 webdesigntuts-workshop">
 					<form action="" method="">	
@@ -93,6 +93,98 @@
 		<h3>&nbsp;&nbsp;<b>Featured Products<b> </h3><hr>
 		<!-- First row -->
 		<br>
+	<div class="row">
+		<div class="col-md-3 asearch" >
+			<div data-spy="affix" data-offset-top="450">
+				<form class="form-horizontal">
+					<fieldset>
+
+					<!-- Form Name -->
+					<legend>Advanced Search</legend>
+
+					<!-- Text input-->
+					<div class="form-group">
+					  <label class="col-md-4 control-label" for="searchtext">Search text:</label>  
+					  <div class="col-md-8">
+					  <input id="searchtext" name="searchtext" placeholder="Enter any text" class="form-control input-md" type="text">
+					    
+					  </div>
+					</div>
+
+					<!-- Text input-->
+					<div class="form-group">
+					  <label class="col-md-4 control-label" for="postedby">Posted by:</label>  
+					  <div class="col-md-8">
+					  <input id="postedby" name="postedby" placeholder="placeholder" class="form-control input-md" type="text">
+					    
+					  </div>
+					</div>
+
+					<!-- Text input-->
+					<div class="form-group">
+					  <label class="col-md-4 control-label" for="ondate">Posted on:</label>  
+					  <div class="col-md-8">
+					  <input id="ondate" name="ondate" placeholder="Enter specific date" class="form-control input-md" type="text">
+					    
+					  </div>
+					</div>
+
+					<!-- Search input-->
+					<div class="form-group">
+					  <label class="col-md-4 control-label" for="fromdate">Date range- From:</label>
+					  <div class="col-md-8">
+					    <input id="fromdate" name="fromdate" placeholder="Enter from date" class="form-control input-md" type="search">
+					    
+					  </div>
+					</div>
+
+					<!-- Search input-->
+					<div class="form-group">
+					  <label class="col-md-4 control-label" for="todate">To:</label>
+					  <div class="col-md-8">
+					    <input id="todate" name="todate" placeholder="Enter to date" class="form-control input-md" type="search">
+					    
+					  </div>
+					</div>
+
+					<!-- Select Basic -->
+					<div class="form-group">
+					  <label class="col-md-4 control-label" for="sortby">Sort By:</label>
+					  <div class="col-md-8">
+					    <select id="sortby" name="sortby" class="form-control">
+					      <option value="1">Price low to high</option>
+					      <option value="2">Price high to low</option>
+					      <option value="3">Latest</option>
+					      <option value="4">Popularity</option>
+					    </select>
+					  </div>
+					</div>
+
+					<!-- Text input-->
+					<div class="form-group">
+					  <label class="col-md-4 control-label" for="index">Start Index:</label>  
+					  <div class="col-md-8">
+					  <input id="index" name="index" placeholder="Enter index" class="form-control input-md" type="text">
+					    
+					  </div>
+					</div>
+
+					<!-- Text input-->
+					<div class="form-group">
+					  <label class="col-md-4 control-label" for="records">Search Records</label>  
+					  <div class="col-md-8">
+					  <input id="records" name="records" placeholder="Enter record" class="form-control input-md" type="text">
+					    
+					  </div>
+					</div>
+
+					</fieldset>
+					</form>
+
+				</div>
+
+		</div>
+		<div class="col-md-9"> <!-- All products start -->
 		<div class="containter" id="allproducts">
 			<div class="row products">
 			<a href="#">
@@ -274,7 +366,7 @@
 		</div>
 		<br>
 		<!-- Second row -->
-				<div class="containter" id="allproducts">
+		<div class="containter" id="allproducts">
 			<div class="row products">
 			<a href="#">
 				<div class="col-md-4 hvr-float-shadow">
@@ -450,8 +542,11 @@
 						</div>
 				</div>
 			</a>
-
 			</div>
+
+		</div>
+		</div> <!-- All products end -->
+		</div>
 		<!-- Login -->
 		<div id="log" class="modal fade" role="dialog">
 		  <div class="modal-dialog">
