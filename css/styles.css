@@ -292,3 +292,13 @@ background-color: #F7F7F2;
   right: 90px;
   bottom: -65px;
 }
+.faq>p{
+  font-size: 1.1em;
+}
+.faq>:nth-child(odd){
+  font-size: 1.2em;
+  color:red;
+}
+.faq>:nth-child(even){
+  color:blue;
+}

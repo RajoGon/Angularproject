@@ -1,0 +1,266 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>I want that!</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">       
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+        <link rel="icon" href="">
+        <!-- Bootstrap -->
+        <!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<!-- jQuery library -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<!-- Latest compiled JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <!-- Style sheets -->
+        <link rel="stylesheet" type="text/css" href="css/hover-min.css">
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+        <link rel="stylesheet" type="text/css" href="css/bnav.css">
+        <link rel="stylesheet" type="text/css" href="css/searchbar.css">
+        <link rel="stylesheet" type="text/css" href="css/login.css">
+        <link href="https://fonts.googleapis.com/css?family=Kavivanar" rel="stylesheet">
+        <script>
+        $(document).ready(function () {
+		  location.hash && $(location.hash + '.collapse').collapse('show');
+		  // window.scrollTo(0, $("#collapse3").offset().top);	 
+		});
+		
+        </script>
+    </head>
+    <body>
+		<!-- navbar -->
+		<nav class="navbar navbar-inverse">
+  			<div class="container-fluid">
+    			<div class="navbar-header">
+     				 <a class="navbar-brand" href="index.html">
+     				 	<img src="images/logo.jpg" class="img-rounded" alt="Cinque Terre" width="200" height="70">
+     				 </a>
+    			</div>
+		    	<ul class="nav navbar-nav">
+		      		<li><a href="index.html">Home</a></li>
+		      		<li><a>Product view</a></li>
+		      		<li class="active"><a href="help.html">Help</a></li>
+		     		 
+		    	</ul>
+		    	<ul class="nav navbar-nav navbar-right">	
+		    		<li><a href="myacc.html#collapse3"><span class="glyphicon glyphicon-open"></span> <button type="button" class="btn btn-primary">Post an Ad</button></a></li>
+		    		<li><a href=""> <span class="glyphicon glyphicon-briefcase"></span> My Account</a></li>
+		      		<li ><a href="#" data-toggle="modal" data-target="#sign"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+		      		<li ><a href="#" data-toggle="modal" data-target="#log"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+		    	</ul>
+  			</div>
+		</nav>
+
+
+		<div id="cat">
+				<div class="row" >
+
+				<div class=" col-md-2 dropdown" id="catdropdown">
+  				<button id="catbutton" class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Categories
+  				<span class="caret"></span></button>
+  				<ul class="dropdown-menu" id="categorydropdown">
+
+	  				<div class="row>">
+		  				<div class="col-md-3">
+		    				<li><a href="#"><span><img src="images/vehicle.png" height="25px"></span> Vehicles</a></li>
+		    			</div>
+		    			<div class="col-md-3">
+		    				<li><a href="#"><img src="images/realestate.png" height="25px"> Real Estate</a></li>
+		    			</div>	
+		    			<div class="col-md-3">
+	    					<li><a href="#"><img src="images/electronics.png" height="25px"> Electronics</a></li>
+	    				</div>
+	    				<div class="col-md-3">
+	    					<li><a href="#"><img src="images/fashion.png" height="25px"> Fashion</a></li>
+	    				</div>
+	    			</div>
+  				</ul>
+				</div>
+				<div class="col-md-6" id="payby">
+					<!-- <button  type="button" class="btn btn-success">Advanced Search</button> -->
+					<p>Pay By</p>
+				</div>
+				<div class="col-md-4 webdesigntuts-workshop">
+					<form action="" method="">	
+					<div>	    
+						<input type="search" placeholder="What are you looking for?">		    	
+						<button>Search</button>
+					</div>
+					</form>
+				</div>
+				</div>
+
+		</div>
+		<!-- Banner -->
+		<div class="banner">
+			<!-- <img  src="images/advert.jpg" > -->
+			<div id="myCarousel" class="carousel slide" data-ride="carousel">
+										  <!-- Indicators -->
+										  <ol class="carousel-indicators">
+										    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+										    <li data-target="#myCarousel" data-slide-to="1"></li>
+										    <li data-target="#myCarousel" data-slide-to="2"></li>
+										  </ol>
+
+										  <!-- Wrapper for slides -->
+										  <div class="carousel-inner">
+										    <div class="item active">
+										      <img class=" intr" src="images/advert.jpg" alt="Los Angeles" >
+										    </div>
+
+										    <div class="item">
+										      <img class="img-responsive intr" src="images/advert2.jpg" alt="Chicago" >
+										    </div>
+
+										    <div class="item">
+										      <img class="intr" src="images/advert3.jpg" alt="New York" >
+										    </div>
+										  </div>
+
+										  <!-- Left and right controls -->
+										  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+										    <span class="glyphicon glyphicon-chevron-left"></span>
+										    <span class="sr-only">Previous</span>
+										  </a>
+										  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+										    <span class="glyphicon glyphicon-chevron-right"></span>
+										    <span class="sr-only">Next</span>
+										  </a>
+										</div>
+		</div>
+		<br>
+		<div class="container">
+		  <div class="jumbotron" id="myaccjumbo">
+		    <h1>FAQs</h1> 
+		    <p>Here you will find common questions answered, still if you have any queries feel free to mail us at the provided id.</p>
+		    <div class="faq"> 
+		    <p>Q) What is this site about ?</p>
+		 	 <p>A) In this website you can find products which a seller wants to sell, also you cna sell your own items.</p>
+		 	 <p>Q) How to post an ad ?</p>
+		 	 <p>A) Click on the post ad button and fill in the details and submit !.</p>
+		 	 <p>Q) Is it free ?</p>
+		 	 <p>A) Posting an ad is free, but with a subscription your ad will have the highest priority to be displayed.</p>
+		 	 <p>Q) How can I show interest in an ad ?</p>
+		 	 <p>A) In the product view page, click on message seller. It will automatically send a pre-generated text. You can ad anything in the text box to attach it to the message.</p>
+		 	 <p>Q) Can I as a user manage my ads ?</p>
+		 	 <p>A) Yes, you can see your ad history, edit , delete them at the click of a button.</p>
+		 	 </div>
+		  </div>
+		  
+
+
+		</div>
+		
+
+
+		<!-- Login -->
+		<div id="log" class="modal fade" role="dialog">
+		  <div class="modal-dialog">
+		    <!-- Modal content-->
+		    <div class="form-group" id="login">
+			    <form action="">
+					<h1>Login Form</h1>
+					<div id="uname">
+						<input class="form-control" type="text" placeholder="Username" required="" id="username" />
+					</div>
+					<div>
+						<input class="form-control" type="password" placeholder="Password" required="" id="password" />
+					</div>
+					<div>
+						<input id="loginbutton" type="submit" value="Log in"><br>
+						<a href="#">Lost your password?</a>
+						<a href="#sign" data-target="#sign" data-toggle="modal" data-dismiss="modal">Register</a>
+					</div>
+				</form>
+			</div>
+		  </div>
+		</div>
+		<!-- Signup -->
+		<div id="sign" class="modal fade" role="dialog"> 
+		  <div class="modal-dialog">
+
+		    <!-- Modal content-->
+		    <div class="form-group" id="sign2">
+			    <form action="">
+					<h1>Signup</h1>
+					
+					<div id="uname2">
+						<input class="form-control" type="text" placeholder="Username" required="" id="username" />
+					</div>
+					<div id="">
+						<input class="form-control" type="text" placeholder="First Name" required="" id="fname" />
+					</div>
+					<div id="">
+						<input class="form-control" type="text" placeholder="Last Name" required="" id="lname" />
+					</div>
+					<div>
+						<input class="form-control" type="password" placeholder="Password" required="" id="password" />
+					</div>
+					<div>
+						<input class="form-control" type="email" placeholder="Email" required="" id="email" />
+					</div>
+					<div>
+						<input class="form-control" type="text" placeholder="Phone number" required="" id="phone" />
+					</div>
+					<div>
+						<input id="signinbutton" type="submit" value="Log in"><br>
+						<a href="#" data-target="#log" data-toggle="modal" data-dismiss="modal">Already have an account? Login</a>
+					</div>
+				</form>
+			</div>
+
+		  </div>
+		</div>
+		<!-- Footer -->
+		<div class="footer">
+		    <div  class="row">
+                <div class="col-md-4" id="contact">
+                    Contact us :<br><hr>
+                    <span class="glyphicon glyphicon-envelope"> Customersupport@iwantthat.com</span><br>
+                    <span class="glyphicon glyphicon-phone-alt"> 9766110856/98872981</span><br>
+                    <a id="web" href="#"><span class="glyphicon glyphicon-bookmark"> https://www.iwantthat.com</span></a>
+
+
+                </div>
+                <div class="col-md-4" id="contact2">
+           
+                    Connect to us Socially:<br><hr>
+                    <div class="row">
+                    <div class="col-md-2">
+                      <a id="" href="#"><img class="img-circle" style="height:50px; width:50px; " src="images/fb.png" alt="Nature" ></a>
+                    </div>
+                    <div class="col-md-2">
+                     <a id="" href="#"><img class="img-circle" style="height:50px; width:50px; " src="images/twit.jpg" alt="Nature" ></a>
+                     </div>
+                     <div class="col-md-2">
+                    <a id="" href="#"> <img class="img-circle" style="height:50px; width:50px; " src="images/insta.jfif" alt="Nature" ></a>
+                    </div>
+                    <div class="col-md-2">
+                     <a id="" href="#"><img class="img-circle" style="height:50px; width:50px; " src="images/ln.png" alt="Nature" ></a>
+                     </div>
+                     <div class="col-md-2">
+                     <a id="" href="#"><img class="img-circle" style="height:50px; width:50px; " src="images/git.png" alt="Nature" ></a>
+                     </div>
+                     <div class="col-md-2">
+                     <a id="" href="#"><img class="img-circle" style="height:50px; width:50px; " src="images/gplus.png" alt="Nature" ></a>
+                     </div>
+                </div>
+
+                </div>
+                  <div class="col-md-4">
+                     You will find me here:<br><hr>
+                     <!-- <span class="glyphicon glyphicon-object-align-vertical"> Sr. No. 33/1, Opposite Chhatrapati Shivaji Sports Complex, near Octroi Naka, Balewadi, Pune, Maharashtra 411045</span><br><br> -->
+                     <span class="glyphicon glyphicon-home"> A804, Off Wakad Hinjewadi Road, Opp Sukhwani Petrol Pump, Wakad, Pune, 411057</span>
+                </div>
+          </div>
+          <div class=" row copyright">
+          		&copy; I want that pvt ltd.
+          </div>
+		</div>
+
+
+    </body>
+</html>
